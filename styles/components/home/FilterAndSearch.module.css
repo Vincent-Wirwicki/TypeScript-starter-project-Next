@@ -1,0 +1,40 @@
+.side__form{
+    position: fixed;
+    top:10vh;
+    left: 20px;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height:300px;
+}
+
+.form{
+    height: 100%;
+    width: 100%;
+}
+
+.suggestions {
+    position: absolute;
+    top:2rem;
+    z-index: 2;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: #000;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height:200px;
+}
+
+.suggestions__item{
+    cursor: pointer;
+    margin: 0.5rem;
+    border-bottom: 1px solid #fff;
+}
+
+.suggestions__item:hover{
+    text-decoration: underline;
+}
